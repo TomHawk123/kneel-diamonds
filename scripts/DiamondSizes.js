@@ -1,5 +1,4 @@
 import { getSizes } from "./database.js"
-import { database } from "./database.js"
 
 const sizes = getSizes()
 
