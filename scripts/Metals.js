@@ -34,4 +34,10 @@ export const Metals = () => {
     return html
 }
 
+const metalsHTML = metals.map(metal => {
+    return `
+    <li>
+    <input type="radio" name="metal" value="${metal.id} /> ${metal.metal}`
+})
 
+html+= metalsHTML

@@ -16,7 +16,6 @@ export const Orders = () => {
         Can you explain why the state variable has to be inside
         the component function for Orders, but not the others?
     */
-    const orders = getOrders()
 
     let html = "<ul>"
 
